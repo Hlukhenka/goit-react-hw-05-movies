@@ -12,8 +12,8 @@ export function SharedLayout() {
     <>
       <Header>
         <Nav>
-          <StyledLink to="/goit-react-hw-05-movies">Home</StyledLink>
-          <StyledLink to="/goit-react-hw-05-movies/movies">Movies</StyledLink>
+          <StyledLink to="/">Home</StyledLink>
+          <StyledLink to="/movies">Movies</StyledLink>
         </Nav>
       </Header>
       <Suspense

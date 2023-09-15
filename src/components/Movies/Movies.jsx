@@ -51,7 +51,7 @@ function Movies() {
                     <li key={movie.id}>
                       <StyledLink
                         key={movie.id}
-                        to={`/goit-react-hw-05-movies/movies/${movie.id}`}
+                        to={`/movies/${movie.id}`}
                         state={{ from: location }}
                       >
                         {movie.original_title}

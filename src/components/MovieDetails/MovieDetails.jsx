@@ -15,7 +15,7 @@ const MovieDetails = () => {
   const { movieId } = useParams();
   const URL = `movie/${movieId}`;
   const location = useLocation();
-  const goBackLocation = useRef(location.state?.from ?? '/goit-react-hw-05-movies/movies');
+  const goBackLocation = useRef(location.state?.from ?? '/movies');
 
   useEffect(() => {
     const fetchData = async () => {

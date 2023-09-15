@@ -30,7 +30,7 @@ function Home() {
         {trendingMovieData.map(movie => {
           return (
             <li key={movie.id}>
-              <StyledLink to={`/goit-react-hw-05-movies/movies/${movie.id}`} state={{ from: location }}>
+              <StyledLink to={`/movies/${movie.id}`} state={{ from: location }}>
                 {movie.name ?? movie.title}
               </StyledLink>
             </li>
